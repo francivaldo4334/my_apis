@@ -12,10 +12,10 @@ var mailOptions = {
     subject: 'Sending Email using Node.js',
     text: 'That was easy!'
   };
-function test(request,response){
-    response.json({
-        name:"fran"
-    });
-    
-}
-export default test;
+transporter.sendMail(mailOptions, function(error, info){
+    if (error) {
+      console.log(error);
+    } else {
+      console.log('Email sent: ' + info.response);
+    }
+  }); 
