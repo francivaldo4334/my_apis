@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "next": "^12.1.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "name": "my_apis",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "dev": "next dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/francivaldo4334/my_apis.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/francivaldo4334/my_apis/issues"
+  },
+  "homepage": "https://github.com/francivaldo4334/my_apis#readme",
+  "description": ""
+}
