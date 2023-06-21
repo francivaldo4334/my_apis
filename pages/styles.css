@@ -1,0 +1,51 @@
+.container {
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 100px;
+  }
+.container1 {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+  }
+  #naoBtn{
+    background-color: red;
+  }
+  #simBtn{
+    background-color: green;
+  }
+  #triste{
+    width: 200px;
+    height: 200px;
+    background-image: url('carinha_triste.jpeg'); /* Imagem de um coração */
+    background-size: contain;
+    background-repeat: no-repeat;
+    visibility: hidden;
+  }
+  #heart {
+    width: 200px;
+    height: 200px;
+    background-image: url('coracao.jpg'); /* Imagem de um coração */
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation: pulse 1s infinite;
+    visibility: hidden;
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
